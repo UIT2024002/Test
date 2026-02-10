@@ -7,21 +7,13 @@ The program demonstrates the use of **packages, multiple classes, static methods
 ## 📁 Project Structure
 
 DevOps/
-
 ├── Test/
-
 │ ├── Add.java
-
 │ ├── Substraction.java
-
 │ ├── Multiply.java
-
 │ ├── Division.java
-
 │ ├── CalculatorMenu.java
-
 │ └── .gitignore
-
 └── README.md
 
 
@@ -30,7 +22,6 @@ DevOps/
 
 All Java files belong to the same package:
 
-java
 package Test;
 
 ⚙️ Features
@@ -52,6 +43,7 @@ javac Test/*.java
 
 java Test.CalculatorMenu
 
+
 🧪 Sample Menu Output
 
 ===== CALCULATOR MENU =====
@@ -61,13 +53,13 @@ java Test.CalculatorMenu
 4. Division
 5. Exit
 
-🚫 Ignored Files
 
+🚫 Ignored Files
 - Compiled .class files are excluded from version control using .gitignore:
 - *.class
 
-🧠 Concepts Used
 
+🧠 Concepts Used
 - Java Packages
 - Static Methods
 - Switch Case
@@ -75,12 +67,13 @@ java Test.CalculatorMenu
 - Modular Programming
 - Command-line Execution
 
-👩‍💻 Author
 
+👩‍💻 Author
 - Tanaya Bhoyar
 - Shravani Vetal
 - Alvina Afsheen
 - Tanvi Shirwadkar
+
 DevOps Lab – Java Program
 
 📌 Note: 
