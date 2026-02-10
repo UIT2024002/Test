@@ -1,14 +1,75 @@
-# Test Repository
+# Menu Driven Calculator in Java
 
-## Description
-This repository is created to practice Git branching and merging.
+This repository contains a **menu-driven calculator application** developed in Java.  
+The program demonstrates the use of **packages, multiple classes, static methods, and user input handling**.
 
-## Files
-- Hello.java → simple Java program
 
-## How to run
-javac Hello.java
-java Hello
+## 📁 Project Structure
 
-## Author
-Tanaya
+DevOps/
+├── Test/
+│ ├── Add.java
+│ ├── Substraction.java
+│ ├── Multiply.java
+│ ├── Division.java
+│ ├── CalculatorMenu.java
+│ └── .gitignore
+└── README.md
+
+
+## 📦 Package Details
+
+All Java files belong to the same package:
+
+java
+package Test;
+
+⚙️ Features
+
+- Menu-driven execution
+- Addition
+- Subtraction
+- Multiplication
+- Division (with divide-by-zero check)
+- Modular design using multiple classes
+- Clean separation of logic
+
+▶️ How to Compile
+Run the following command from the parent directory (DevOps):
+javac Test/*.java
+
+▶️ How to Run
+java Test.CalculatorMenu
+
+🧪 Sample Menu Output
+===== CALCULATOR MENU =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+
+🚫 Ignored Files
+
+- Compiled .class files are excluded from version control using .gitignore:
+- *.class
+
+🧠 Concepts Used
+
+- Java Packages
+- Static Methods
+- Switch Case
+- Scanner Class
+- Modular Programming
+- Command-line Execution
+
+👩‍💻 Author
+
+- Tanaya Bhoyar
+- Shravani Vetal
+- Alvina Afsheen
+- Tanvi Shirwadkar
+DevOps Lab – Java Program
+
+📌 Note
+This project is intended for academic and learning purposes.

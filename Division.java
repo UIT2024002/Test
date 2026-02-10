@@ -1,15 +1,17 @@
 package Test;
-import java.util.*;
-public class Division{
-    public static void main(String[] args){
-        Scanner sc= new Scanner(System.in);
-        System.out.print("Enter two numbers for division: ");
-        float a= sc.nextFloat();
-        float b= sc.nextFloat();
+import java.util.Scanner;
+
+public class Division {
+    public static void div() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+        float a = sc.nextFloat();
+        System.out.print("Enter second number: ");
+        float b = sc.nextFloat();
         while(b==0){
-            System.out.println("Error! Divide by Zero not possible.\nEnter another number.");
-            b= sc.nextFloat();
+            System.out.print("\nError! Divide by zero not possible.\nEnter another number:- ");
+            b = sc.nextFloat();
         }
-        System.out.println("Division Result: "+(a/b));
+        System.out.println("Division = " + (a / b));
     }
 }
