@@ -1,5 +1,5 @@
 package Test;
-class HelloWorld{
+class CalculatorMenu{
     public static void main(String args[]){
         System.out.println("Hello World");
     }

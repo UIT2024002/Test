@@ -1,3 +1,4 @@
+package Test;
 import java.util.*;
 public class Division{
     public static void main(String[] args){
