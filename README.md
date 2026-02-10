@@ -4,27 +4,35 @@ This repository contains a **menu-driven calculator application** developed in J
 The program demonstrates the use of **packages, multiple classes, static methods, and user input handling**.
 
 
-## 📁 Project Structure
+## 📁 Project Structure:
 
 DevOps/
+
 ├── Test/
+
 │ ├── Add.java
+
 │ ├── Substraction.java
+
 │ ├── Multiply.java
+
 │ ├── Division.java
+
 │ ├── CalculatorMenu.java
+
 │ └── .gitignore
+
 └── README.md
 
 
 
-## 📦 Package Details
+## 📦 Package Details:
 
 All Java files belong to the same package:
 package Test;
 
 
-⚙️ Features
+⚙️ **Features:**
 - Menu-driven execution
 - Addition
 - Subtraction
@@ -33,12 +41,13 @@ package Test;
 - Modular design using multiple classes
 - Clean separation of logic
 
-▶️ How to Compile
 
-Run the following command from the parent directory (DevOps):
+▶️ **How to Compile:**
+
+Run the following command from the parent directory:
 javac Test/*.java
 
-▶️ How to Run
+▶️ **How to Run:**
 
 java Test.CalculatorMenu
 
@@ -53,12 +62,13 @@ java Test.CalculatorMenu
 5. Exit
 
 
-🚫 Ignored Files
+
+🚫 **Ignored Files:**
 - Compiled .class files are excluded from version control using .gitignore:
 - *.class
 
 
-🧠 Concepts Used
+🧠 **Concepts Used:**
 - Java Packages
 - Static Methods
 - Switch Case
@@ -67,13 +77,13 @@ java Test.CalculatorMenu
 - Command-line Execution
 
 
-## 👩‍💻 Author
+## 👩‍💻 Authors:
 - Tanaya Bhoyar
 - Shravani Vetal
 - Alvina Afsheen
 - Tanvi Shirwadkar
 
-DevOps Lab – Java Program
+**DevOps Lab – Java Program**
 
-📌 Note: 
+📌 **Note:**
 This project is intended for academic and learning purposes.
