@@ -7,14 +7,23 @@ The program demonstrates the use of **packages, multiple classes, static methods
 ## 📁 Project Structure
 
 DevOps/
+
 ├── Test/
+
 │ ├── Add.java
+
 │ ├── Substraction.java
+
 │ ├── Multiply.java
+
 │ ├── Division.java
+
 │ ├── CalculatorMenu.java
+
 │ └── .gitignore
+
 └── README.md
+
 
 
 ## 📦 Package Details
@@ -35,13 +44,16 @@ package Test;
 - Clean separation of logic
 
 ▶️ How to Compile
+
 Run the following command from the parent directory (DevOps):
 javac Test/*.java
 
 ▶️ How to Run
+
 java Test.CalculatorMenu
 
 🧪 Sample Menu Output
+
 ===== CALCULATOR MENU =====
 1. Addition
 2. Subtraction
@@ -71,5 +83,5 @@ java Test.CalculatorMenu
 - Tanvi Shirwadkar
 DevOps Lab – Java Program
 
-📌 Note
+📌 Note: 
 This project is intended for academic and learning purposes.
