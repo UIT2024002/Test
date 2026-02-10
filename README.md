@@ -21,11 +21,10 @@ DevOps/
 ## 📦 Package Details
 
 All Java files belong to the same package:
-
 package Test;
 
-⚙️ Features
 
+⚙️ Features
 - Menu-driven execution
 - Addition
 - Subtraction
@@ -44,7 +43,7 @@ javac Test/*.java
 java Test.CalculatorMenu
 
 
-🧪 Sample Menu Output
+## 🧪 Sample Menu Output:
 
 ===== CALCULATOR MENU =====
 1. Addition
@@ -68,7 +67,7 @@ java Test.CalculatorMenu
 - Command-line Execution
 
 
-👩‍💻 Author
+## 👩‍💻 Author
 - Tanaya Bhoyar
 - Shravani Vetal
 - Alvina Afsheen
